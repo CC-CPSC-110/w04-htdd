@@ -116,7 +116,7 @@ def closest(loa: List[Apartment], mine: Apartment) -> Apartment | None:
     return close
 
 
-closest(database, database[1])
-#expect(closest([], database[0]), None)
-# expect(closest(database, database[1], 1), database[1])
-# summarize()
+
+expect(closest([], database[0]), None)
+expect(closest(database, database[1], 1), database[1])
+summarize()
